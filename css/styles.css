@@ -1,0 +1,45 @@
+/* LESS Document */
+/* body background color */
+/* text color throughout web page */
+/* font family throughout web page */
+/* alignment for headings */
+body {
+  background-color: #cbcda9;
+  margin: 20px 20px;
+}
+.textProperties {
+  /* common text properties */
+  color: #333333;
+  font-family: lato, sans-serif;
+  font-weight: 200;
+  font-size: 1.25em;
+}
+.headingProperties {
+  font-weight: 600;
+}
+p {
+  /* common text properties */
+  color: #333333;
+  font-family: lato, sans-serif;
+  font-weight: 200;
+  font-size: 1.25em;
+}
+h1,
+h2 {
+  /* common text properties */
+  color: #333333;
+  font-family: lato, sans-serif;
+  font-weight: 200;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+  color: #b9a657;
+}
+.center {
+  margin: auto 0;
+}

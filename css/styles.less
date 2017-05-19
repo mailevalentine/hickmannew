@@ -1,0 +1,40 @@
+/* LESS Document */
+
+@mainColor: #cbcda9;  					/* body background color */
+@textColor: #333;						/* text color throughout web page */
+@subHead: #b9a657;
+@textFamily: lato, sans-serif;			/* font family throughout web page */
+@hAlign: center;						/* alignment for headings */
+
+body {
+	background-color: @mainColor;
+	margin: 20px 20px;
+}
+
+.textProperties {						/* common text properties */
+	color: @textColor;
+	font-family: @textFamily;
+	font-weight: 200;
+	font-size: 1.25em;
+}
+.headingProperties {
+	font-weight: 600;
+}
+
+p {
+	.textProperties;
+}
+h1, h2 {
+	.textProperties;
+	.headingProperties;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1em;
+	color: @subHead;
+}
+.center {
+	margin: auto 0;
+}
