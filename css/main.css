@@ -40,12 +40,15 @@ footer {
 .phone {
 	text-align: center;
 	background: #48483c;
-	color: #fff8d2;
 	padding: 10px 0px 5px 0px;
 }
 .phone a {
-	color: #fff;
+	color: #fff8d2;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	text-decoration: none;
+}
+.centerForm {
+	margin: 0 auto;
 }
 .navbar-inverse {
   background-color: #979880;
@@ -56,7 +59,7 @@ footer {
   font-weight: 500;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #48483c;
+  color: #48483c;
 }
 
 .picture {
@@ -66,8 +69,30 @@ footer {
 	background-color: #adb78d;
 	padding: 10px;
 }
-.last-item {
-	padding: 10px 0px 0px 0px;
+
+.h1 {
+	color: #48483d;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.h4 {
+	color: #6d6d5d;
+	margin: 20px 0 5px 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.placeholder {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.submit {
+	margin: 20px 0 0 0px;
+	padding: 10px 50px;
+	border: hidden;
+	border-radius: 5px;
+	background: linear-gradient(#979880, #cbcda9);
+	color: #fff8d2;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.submit:hover {
+	background: linear-gradient(#7e7e6b, #cbcda9);
 }
 /* START HERE FOR GALLERY */
 
@@ -195,22 +220,22 @@ footer {
 }
 .list-group-item {
 	display:inline-block;
-	}
+}
 .container {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 .centerThumb {
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 10%;
 	margin-right: 10%;
 }
-.col-md-12 {
+/*.col-md-12 {
 	float: none;
 	margin: 20px 0px 0px 0px;
-}
+}*/
 .carousel {
 	display: none;
 	visibility: hidden;
