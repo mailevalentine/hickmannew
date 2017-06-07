@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
+body {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
 footer {
 	padding: 20px;
 	background-color: #222;
-	color: #9d9d9d;
+	color: #c8cba4;
 }
 .mid_ctr {
 	background-color: #fff7d4;
@@ -36,7 +39,12 @@ footer {
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #c8cba4;
 }
-
+.glyph-right {
+	float: right;
+}
+.left {
+	float: left;
+}
 .phone {
 	text-align: center;
 	background: #48483c;
@@ -90,10 +98,15 @@ footer {
 	background: linear-gradient(#979880, #cbcda9);
 	color: #fff8d2;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-}
+}  
+ 
 .submit:hover {
 	background: linear-gradient(#7e7e6b, #cbcda9);
 }
+.last-item {
+	margin: 10px 0 0 0;
+}
+
 /* START HERE FOR GALLERY */
 
 #gallery {
@@ -232,6 +245,9 @@ footer {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+.address {
+	display: none;
+}
 /*.col-md-12 {
 	float: none;
 	margin: 20px 0px 0px 0px;
@@ -256,3 +272,12 @@ footer {
 
 
 
+
+@media (max-width:1200px){
+	#myTab1 {
+		
+	}
+.tabs {
+	margin-bottom: 20px;
+}
+}
