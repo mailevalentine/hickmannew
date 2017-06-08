@@ -47,11 +47,12 @@ footer {
 }
 .phone {
 	text-align: center;
-	background: #48483c;
+	background: #6b6b5a; 
 	padding: 10px 0px 5px 0px;
 }
 .phone a {
-	color: #fff8d2;
+	color: #fff;
+	/* color: #fff8d2; */
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	text-decoration: none;
 }
@@ -59,12 +60,14 @@ footer {
 	margin: 0 auto;
 }
 .navbar-inverse {
-  background-color: #979880;
-  border-color: #979880;
+  background-color: #48483c;
+  border-color: #48483c;
+
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #48483c;
+  color: #fff;
   font-weight: 500;
+	  margin: 10px 0;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
   color: #48483c;
